@@ -1,0 +1,17 @@
+### 2018/11 @taiguangyuan
+### Broadlink版权所有
+###
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'protocol_test'
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+pod 'Objection'
+
+target "protocolTest" do
+    project 'protocolTest/protocolTest'
+
+    
+end
